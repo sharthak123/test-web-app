@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
 .home-container--main {
   position: relative;
   background: #090979;
@@ -34,8 +35,27 @@
   padding: 5px 0 20px 15px !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+.card-header h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  background-color: #090979;
+  background: linear-gradient(45deg, #090979 0%, #090979 6%, #8b2bdf 46%, rgba(201, 2, 218, 0.8827906162) 83%, rgba(179, 26, 175, 0.8771883754) 96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .card-body {
   padding: 25px;
+}
+.card-footer {
+  padding: 15px 15px 0 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.card-footer--text {
+  display: flex;
+  justify-content: space-between;
+}
+.card-footer--text .partial1, .card-footer--text .partial2 {
+  font-size: 1.2rem;
 }
 
 * {
