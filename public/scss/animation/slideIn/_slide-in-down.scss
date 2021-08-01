@@ -1,0 +1,32 @@
+.slide-in-down{
+    -webkit-animation: slideInDown .5s  ease-in ;
+    -moz-animation: slideInDown .8s ease-in ;
+    animation-name: slideInDown ;
+    animation-duration: 1s;
+    animation-delay: 0!important;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes slideInDown{
+    0%{
+        opacity: 0;
+        transform: tranlateY(-100%);
+    }
+    50%{
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    70%{
+        opacity: .3;
+    }
+    80%{
+        opacity: .5;
+    }
+    90%{
+        opacity: .8;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
