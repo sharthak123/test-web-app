@@ -1,0 +1,18 @@
+.card{
+    width: 460px;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 12px;
+    box-shadow: -2px 16px 29px -13px rgba(0,0,0,0.61);
+    -webkit-box-shadow: -2px 16px 29px -13px rgba(0,0,0,0.61);
+    -moz-box-shadow: -2px 16px 29px -13px rgba(0,0,0,0.61);
+    &-header{
+        padding: 5px 0 20px 15px!important;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    &-body{
+        padding: 25px;
+    }
+}
